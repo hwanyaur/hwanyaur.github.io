@@ -5,48 +5,84 @@
     <title>Landing Page</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-
-    <div class="main-content">
-        <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="nav-bar item">
-                    <button class="navbar-link">About</button>
-                    <button class="navbar-link">Resume</button>
-                    <button class="navbar-link">Projects</button>
-                    <button class="navbar-link">Contact</button>
-                </li>
-            </ul>
+    <nav>
+        <ul>
+            <li class="navitem">About</li>
+            <li class="navitem">Resume</li>
+            <li class="navitem">Projects</li>
+            <li class="navitem">Contact</li>
+        </ul>
+    </nav>
 
 
-        </nav>
-
-
-
-    </div>
     <div class="page">
-
-        <img src="images/me2.png" class="myface" alt="Picture of my face">
         <div class="myinfo">
-            <div class="title">Hi! I'm Yaurie.</div>
-            I'm a junior at Northwestern University studying Computer Science and Learning Sciences.
-            Thanks for stopping by!
-            <div>
-                <a href="https://www.linkedin.com/in/yaurie/">
-                    <img src="images/linkedin.png" class="socials" alt="linked-in icon"> </a>
-
-                <a href="https://www.instagram.com/yauriehwang/?hl=en">
-                    <img src="images/insta.png" class="socials" alt="Instagram icon"> </a>
+            <img src="images/me2.png" class="myface" alt="Picture of my face">
+            <div class="blurb">
+                <div class="title">Hi! I'm Yaurie.</div>
+                <div> I'm a junior at Northwestern University studying Computer Science and Learning Sciences.
+                    Thanks for stopping by! </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/yaurie/">
+                        <img src="images/linkedin.png" class="socials" alt="linked-in icon"></a>
+                    <a href="https://www.instagram.com/yauriehwang/?hl=en">
+                        <img src="images/insta.png" class="socials" alt="Instagram icon"> </a>
+                </div>
             </div>
         </div>
+
+        <div class="moreinfo">You might be wondering what Learning Sciences even is. </div>
+
+        <div class="moreinfo">Learning Sciences explores cognition and design
+            with an education lens. My classes feel like a mix of psychology, sociology and teacher
+            education, sprinkled with some design and computer science. The major sits within
+            Northwestern's School of Education and Social Policy.</div>
+
+        <div class="moreinfo">
+            I probably don't need to explain my Computer Science major. Interestingly,
+            Northwestern has a great CS + LS PhD program, so many CS professors are also faculty in LS!
+            This has made my independent research super fascinating yet easy to pursue.
+            Feel free to read more about my research in my Projects section.</div>
+
+        <div class="moreinfo">
+            Outside of class, I love to volunteer in my community. Equity work and community engagement
+            are really important to me. I also enjoy exploring Chicago, event planning, and making
+            memes for my school's Barstool/Chicks accounts. I am currently reading Victor Ray's
+            <i>On Critical Race Theory: Why It Matters and Why You Should Care.</i>
+            <br><br><br><br>
+        </div>
+
+        <form>
+            <br>
+            <h3>Get in contact with me</h3><br>
+            <label for="f name">First name</label><br>
+            <input type="text" id="f name" name="f name"><br><br>
+
+            <label for="l name">Last name</label><br>
+            <input type="text" id="l name" name="l name"><br><br>
+
+            <label for="l name">Email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="l name">Message</label><br>
+            <input type="message" id="message" name="message" style="height:200px" placeholder="Write something..."><br>
+            <br>
+            <br>
+            <br>
+        </form>
+        <br><br><br><br><br>
+        
+
+    </div>
     </div>
 
+    
 
 
 
-
-    </div>
 
 </body>
