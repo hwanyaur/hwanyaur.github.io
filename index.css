@@ -1,10 +1,18 @@
+/* Color Palette
+    #949EB3
+    #C1D2F5
+    #EDF3FF
+    #B8AD97
+    #FAF8F5
+                */
+
 /* 
 	Global classes 
 					*/
 
 body {
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 18px;
     background-color: #B8AD97;
 }
 
@@ -12,23 +20,24 @@ body {
     font-family: 'Montserrat';
     font-size: 30px;
     color: #949EB3;
-    font-weight: bolder;
-    margin-left: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 5px;
 }
 
 .page {
     background-color: #FAF8F5;
     margin: auto;
     width: 80%;
-    height: 90%;
+    height: 110%;
     border-radius: 10px;
     
 
 }
 
 /* 
-	About
-				*/
+	About #C1D2F5
+				*/ 
 
 .myface {
     width: 200px;
@@ -36,6 +45,26 @@ body {
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 10px;
-}                
+    float: left;
+}    
+
+.myinfo {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.socials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
 
 
