@@ -13,15 +13,16 @@
     <form>
         <label for="pswd">Enter the password: </label>
         <input type="password" id="pswd">
+        <div>hint: first 3 letters of my middle name (on resume)</div>
         <div>*make sure you press the submit button*</div>
         <input type="button" value="Submit" onclick="checkPswd();" />
     </form>
 
     <script type="text/javascript">
         function checkPswd() {
-            var confirmPassword = "jen";
+            var input = "jen";
             var password = document.getElementById("pswd").value;
-            if (password == confirmPassword) {
+            if (password == input) {
                  window.location="home.html";
             }
             else{
