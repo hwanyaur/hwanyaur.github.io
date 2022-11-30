@@ -3,7 +3,6 @@ body {
     font-family: 'Montserrat';
     font-size: 18px;
     background-color: #B8AD97;
-    min-width: 700px;
 }
 
 nav {
@@ -49,20 +48,6 @@ ul {
     height: 50px;
 }
 
-a:visited {
-    text-decoration-line: #EDF3FF;
-    text-decoration: none;
-    color: black;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #949EB3;
-}
-
 .blurb {
     position: relative;
     display: inline-block;
@@ -81,6 +66,7 @@ a:hover {
     margin-bottom: 5px;
     margin-top: 10px;
 }
+
 .pic {
     width: 150px;
     height: 150px;
@@ -117,5 +103,11 @@ a:hover {
 }
 
 a:active {
+    color: black;
+}
+
+a:visited {
+    text-decoration-line: #EDF3FF;
+    text-decoration: none;
     color: black;
 }
